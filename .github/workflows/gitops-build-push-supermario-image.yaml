@@ -22,4 +22,4 @@ jobs:
       - name: Build and Push Docker Image
         run: |
           docker build -t docker.io/choudharyaniruddhaudemy/bhakti-mario-game:${{ env.VERSION }} .
-          docker push docker.io/choudharyaniruddhaudemy/bhakti-mario-game:${{ env.VERSION }} .
+          docker push docker.io/choudharyaniruddhaudemy/bhakti-mario-game:${{ env.VERSION }}
